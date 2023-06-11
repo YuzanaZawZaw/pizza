@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true">
+	<Resource
+		name="jdbc/posdb"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3309/pizzadb"
+		username="root"
+		password="root"
+		maxActive="100"
+		maxIdle="30"
+		maxWait="10000"
+		type="javax.sql.DataSource"
+		auth="Container"
+		removeAbandoned="true"		
+	/>
+</Context>
